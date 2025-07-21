@@ -5,7 +5,7 @@ from PIL import Image
 import tensorflow as tf
 
 # Load model
-model = load_model("mobilenetv2_finetuned_40.keras")
+model = load_model("https://drive.google.com/file/d/17uhLI-MznEmz_mk9E2_Mfy4VqVJWFEez/view?usp=sharing")
 
 # Define class names (update according to your dataset)
 CLASS_NAMES = ['Glioma', 'Meningioma', 'No Tumor', 'Pituitary']
